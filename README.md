@@ -12,7 +12,7 @@ You can shorten your front-end development time considerably by using tailwindcs
 - Get the source code when you're done
 - Little not: I'm aware of some bugs and UX improvements. Currently I'm working on them!
 
-💫 https://www.tailwinddrop.com/
+💫 Go and explore https://www.tailwinddrop.com/
 
 
 
