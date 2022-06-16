@@ -15,13 +15,13 @@ export default function ComponentList({
       if (isComponentInList) {
         return list;
       } else {
-        return [...list, block];
+        return [block, ...list];
       }
     });
     handleScrollToLastElement();
   };
 
-  return Object.entries(iconList).map(([type, icons, name]) => {
+  return Object.entries(iconList).map(([type, icons]) => {
     return (
       <div className="blocks" key={type}>
         <div className="block-category">{type}</div>
