@@ -7,6 +7,7 @@ import { vs2015 } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Modal from "./components/Modal";
 import DraggableList from "./components/DraggableList";
 import DeviceToolbar from "./components/DeviceToolbar";
+import { Helmet } from "react-helmet";
 
 const iconList = getIcons();
 
@@ -74,6 +75,11 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>TailwindDrop: Site builder</title>
+      </Helmet>
+
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <SyntaxHighlighter style={vs2015} language="javascript" showLineNumbers>
           {markup}
