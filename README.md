@@ -1,6 +1,9 @@
 # TailwindDrop Drag & Drop Website Builder
 
-https://user-images.githubusercontent.com/67821678/174075895-58328bcf-3275-40ba-9c86-42a16c8792aa.mov
+
+
+https://user-images.githubusercontent.com/67821678/174082927-178389f8-13ab-45bc-b4f8-0155739cb197.mov
+
 
 
 Note: In this project, I used the components prepared by tailwindblock. It is a very carefully and beautifully prepared package, 
